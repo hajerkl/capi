@@ -21,6 +21,9 @@ Un projet pour le planning poker game .
 
 ```bash
 
+### utilisation
+Démarrer l'application npm start
+
 # Clone le dépôt
 git clone https://github.com/hajerkl/capi.git
 
