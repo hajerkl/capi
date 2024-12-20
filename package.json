@@ -1,0 +1,21 @@
+{
+  "name": "planning-poker",
+  "version": "1.0.0",
+  "description": "Une application de Planning Poker pour estimer les tâches d'un backlog.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",      
+    "start": "live-server" 
+  },
+  "keywords": [
+    "planning-poker",
+    "estimation",
+    "jeu"
+  ],
+  "author": "Votre Nom",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0",    
+    "jsdom": "^21.0.0"    
+  }
+}

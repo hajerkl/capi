@@ -1,0 +1,71 @@
+body {
+  background-color: #f0f8ff;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff69b4;
+  text-shadow: 2px 2px #ffa500;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #32cd32;
+  margin-bottom: 15px;
+}
+
+#config, #game {
+  background: #ffffff;
+  border: 2px solid #ff6347;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  font-size: 1em;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1e90ff;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #32cd32;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #228b22;
+}
+
+#feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+#feature-list li {
+  background: #add8e6;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+#player-votes div {
+  margin-bottom: 10px;
+}
+
+#vote-results p {
+  font-size: 1.2em;
+  color: #4682b4;
+}
